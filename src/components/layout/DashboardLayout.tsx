@@ -18,7 +18,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         <main
           className={cn(
             "flex-1 overflow-y-auto bg-muted/20 p-4 md:p-6",
-            sidebarOpen ? "lg:ml-64" : ""
+            sidebarOpen ? "lg:ml-72" : ""
           )}
         >
           {children}
